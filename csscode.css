@@ -1,0 +1,128 @@
+body{
+	background-color: BurlyWood;
+}
+.centered-content{
+	margin: 120px;
+	margin-top: 0px;
+	background-color: Wheat;
+}
+h1{
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 50px;
+	background-color: BurlyWood;
+	text-shadow: 2px 2px 4px #000000;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+}
+h2, h3{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+div{
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+.foto{
+	margin-top: 30px;
+	text-align: center;
+}
+
+/*nodarbību grafiks*/
+.column-1 {
+    float: left;
+    width: 25%;
+	text-transform: capitalize;
+}
+#nodarbibu-grafiks:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Navbar*/
+nav {
+  position: sticky;
+  top: 0;
+  background-color: BurlyWood;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid white;
+}
+nav li {
+  float: left;
+  border-right: 1px solid white;
+}
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: black;
+}
+
+#myForm{
+	color: gray;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+button{
+	background-color: BurlyWood;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 13px;
+	border-radius: 4px;
+    margin: 4px 2px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.1);
+}
+button:hover {
+	background-color: black;
+}
+.spec-container{
+	background-color: BurlyWood;
+	font-size: 20px;
+	color: white;
+	padding: 15px 25% 15px 25%;
+    text-align: left;
+}
+.spec-container:after{
+    display: table;
+	content: "";
+    clear: both; 
+}
+dl {
+  margin-bottom: 10px;
+  overflow: hidden;
+  padding: 0;
+  opacity: 60%;
+  font-size: 13px;
+}
+dl dt {
+  display: table-cell;
+  margin: 0;
+  float: left;
+  width: 50%;
+  padding-top: 5px;
+}
+dl dd {
+	display: table-cell;
+    padding-top: 5px;
+    width: 50%;
+}
+#poga{
+	display: flex;
+	justify-content: center;
+}
